@@ -1,0 +1,11 @@
+- name: Principles
+  path: /principles/
+
+- name: Typography
+  path: /typography/
+
+- name: Layout
+  path: /layout/
+
+- name: Examples
+  path: /examples/

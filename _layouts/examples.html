@@ -1,0 +1,22 @@
+---
+layout: guide-default
+---
+
+<section>
+  <div class="container max-width-4 mx-auto">
+    <div class="clearfix">
+      <div class="sm-col sm-col-6 md-col-7 lg-col-8 px2">
+
+        {{ content }}
+
+        {% for item in site.examples %}
+          <h2>{{ item.title }}</h2>
+          <p>{{ item.description }}</p>
+          <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+        {% endfor %}
+
+
+      </div>
+    </div>
+  </div>
+</section>

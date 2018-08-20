@@ -1,6 +1,8 @@
-# The Brooklyn Rail Handbook
+# Brooklynrail Handbook
 
 https://brooklynrail.org/
+
+---
 
 
 ## How to Edit
