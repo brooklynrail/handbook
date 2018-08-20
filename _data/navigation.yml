@@ -1,8 +1,13 @@
-- name: Now
-  path: /now/
+- collection: "Editing"
+  sub_nav:
+  - name: Editing Basics
+    path: /editing-handbook/
 
-- name: About
-  path: /about/
-
-- name: Subscribe
-  path: /subscribe/
+- collection: "collection name"
+  sub_nav:
+  - name: Home
+    path: /
+  - name: Edit Handbook
+    path: /editing-handbook
+  - name: Typography
+    path: /typography/

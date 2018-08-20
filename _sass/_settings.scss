@@ -5,7 +5,7 @@
 // Colors
 $white: #fff;
 $black: #000;
-$bg: #efefef;
+$bg: #f3f3f3;
 $base_type: 16px;
 
 
@@ -13,7 +13,7 @@ $base_type: 16px;
 
 $serif: Times, serif;
 $sans: 'Libre Franklin', sans-serif;
-$guide-type: "Roboto Mono", monospace;
+$mono: "Roboto Mono", monospace;
 $base_color: $black;
 
 
@@ -23,9 +23,11 @@ $base_color: $black;
 body{
   color: $base_color;
   font-size: $base_type;
-  font-family: $serif;
+  font-family: $sans;
   background-color: $bg;
 }
-body.guide-page{
-  font-family: $guide-type;
+
+a,
+a:hover{
+  color: $black;
 }
