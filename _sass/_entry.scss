@@ -2,6 +2,12 @@
 // Article
 
 .entry{
+  .entry-head{
+    margin-bottom: 3em;
+    h1{
+      font-size: 36px;
+    }
+  }
   .entry-content{
     a{
       color: blue;
