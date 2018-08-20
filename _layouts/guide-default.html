@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include guide/head.html %}
+
+  <body class="my3 guide-page">
+
+    {% include guide/header.html %}
+
+    {{ content }}
+
+    {% include guide/footer.html %}
+
+  </body>
+
+</html>
