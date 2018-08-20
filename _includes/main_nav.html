@@ -2,16 +2,14 @@
   <div class="sm-col sm-col-6 md-col-7 lg-col-8">
     <ul>
     {% for item in site.data.main_nav %}
-      {% if item.collection %}
-      <li class="collection">
-        <span>{{ item.collection }}</span>
+      <li>
+        <a href="{{ item.path | relative_url }}">{{ item.name }}</a>
         <ul>
           {% for sub in item.sub_nav %}
           <li><a href="{{ sub.path | relative_url }}">{{ sub.name }}</a></li>
           {% endfor %}
         </ul>
       </li>
-      {% endif %}
     {% endfor %}
     </ul>
   </div>

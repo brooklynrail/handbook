@@ -1,7 +1,6 @@
 ---
 layout: page
-title: ABOUT
+title: About
 permalink: /about/
----
 
-About the handbook.
+---
