@@ -43,6 +43,11 @@ collections:
     output: true
     permalink: /examples/:path/
 
+github:
+  organization: brooklynrail
+  repository: brooklynrail-handbook
+  default_branch: master
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
