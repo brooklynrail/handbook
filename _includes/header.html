@@ -2,14 +2,12 @@
   <div class="container max-width-4 mx-auto">
     <div class="clearfix">
       <div class="sm-col sm-col-6 md-col-7 lg-col-8 px2">
-
-        {% if page.layout == 'post' %}
-          <h2 id="logo" class="m0"><a href="{{ site.baseurl }}" title="{{ site.title }}">{% include rail.svg %}</a></h2>
+        {% if page.layout == 'home' %}
+          <h1 id="logo" class="m0"><a href="{{ site.baseurl }}" title="{{ site.title }}"><img src="{{ '/assets/img/brooklynrail.png' | relative_url }}" alt="{{ site.title }}"></a></h1>
         {% else %}
-          <h1 id="logo" class="m0"><a href="{{ site.baseurl }}" title="{{ site.title }}">{% include rail.svg %}</a></h1>
+          <h2 id="logo" class="m0"><a href="{{ site.baseurl }}" title="{{ site.title }}"><img src="{{ '/assets/img/brooklynrail.png' | relative_url }}" alt="{{ site.title }}"></a></h2>
         {% endif %}
       </div>
     </div>
-    {% include navigation.html %}
   </div>
 </header>

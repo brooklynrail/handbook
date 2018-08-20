@@ -1,5 +1,5 @@
 ---
-layout: guide-page
+layout: default
 title: Principles
 permalink: /principles/
 ---

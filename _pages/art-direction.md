@@ -1,13 +1,11 @@
 ---
-layout: guide-page
-title: Art Direction Guide
-permalink: /art-direction/
-
+layout: default
+title: Editing the Handbook
+permalink: /editing-handbook/
 
 ---
 
 
-## Key Resources
+## How to Edit
 
-- [BassCSS Docs / v7 ](http://basscss.com/v7/docs/)
 - [Markdown Guide](https://guides.github.com/features/mastering-markdown/)

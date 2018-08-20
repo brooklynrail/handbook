@@ -1,7 +1,7 @@
 ---
-layout: guide-page
+layout: default
 title: About
 permalink: /about/
 ---
 
-The design system for the Brooklyn Rail.
+About the handbook...
