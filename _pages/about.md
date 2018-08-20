@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-About the handbook...
+About the handbook.
