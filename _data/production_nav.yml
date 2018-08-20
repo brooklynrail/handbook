@@ -4,7 +4,7 @@
     - name: 'General Procedures'
       path: '/production/'
     - name: 'Timeline'
-      path: '/production/'
+      path: '/production/timeline'
 - name: Interviews
   path: '/production/'
   subnav:
