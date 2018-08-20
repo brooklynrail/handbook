@@ -9,6 +9,10 @@ nav{
     li{
       list-style-type: none;
     }
+    a,
+    a:hover{
+      color: $black;
+    }
     .collection{
       margin-bottom: 1.5em;
       padding:0;

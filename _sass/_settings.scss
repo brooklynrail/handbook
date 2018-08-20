@@ -5,9 +5,9 @@
 // Colors
 $white: #fff;
 $black: #000;
-$bg: #f3f3f3;
+$bg: #fff;
 $base_type: 16px;
-
+$link: #0056b3;
 
 // Type
 
@@ -29,5 +29,5 @@ body{
 
 a,
 a:hover{
-  color: $black;
+  color: $link;
 }
