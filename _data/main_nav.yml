@@ -4,7 +4,7 @@
   path: /office/
 - name: Events
   path: /events/
-- name: 'Subscriptions & Distribution'
+- name: 'Distribution'
   path: /distribution/
 - name: Archive
   path: /distribution/
