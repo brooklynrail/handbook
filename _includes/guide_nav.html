@@ -6,11 +6,13 @@
     {% for item in site.data.[page.guide] %}
       <li>
         <a href="{{ item.path | relative_url }}">{{ item.name }}</a>
+        {% if item.subnav %}
         <ul>
           {% for sub in item.subnav %}
           <li><a href="{{ sub.path | relative_url }}">{{ sub.name }}</a></li>
           {% endfor %}
         </ul>
+        {% endif %}
       </li>
     {% endfor %}
     </ul>

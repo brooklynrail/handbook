@@ -1,0 +1,12 @@
+- name: Monthly Production Cycle
+  path: '/distribution/'
+- name: Web Store Maintenance
+  path: '/distribution/'
+- name: Mailing Instructions
+  path: '/distribution/'
+- name: In-City Distribution
+  path: '/distribution/'
+- name: Individual and Institutional Subscriptions
+  path: '/distribution/'
+- name: Supplies Checklist
+  path: '/distribution/'

@@ -1,0 +1,10 @@
+- name: Everyday tasks for PAs
+  path: '/office/'
+- name: Phone and Voicemail
+  path: '/office/'
+- name: Printer Information
+  path: '/office/'
+- name: Press Passes
+  path: '/office/'
+- name: Posting to NYFA
+  path: '/office/'
