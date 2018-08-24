@@ -29,7 +29,7 @@
     - name: 'Acquiring Press Images'
       path: '/production/'
     - name: 'Preparing Images for Print'
-      path: '/production/'
+      path: '/production/images-print/'
     - name: 'Preparing Images for Web'
       path: '/production/'
     - name: 'Captions'
