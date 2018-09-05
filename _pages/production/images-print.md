@@ -10,7 +10,7 @@ All images for each issue should be stored in the Images folder within the Issue
 
 Images for other sections, such as ArtSeen, Features, and Critics Page, will usually need to be gathered by office staff.
 
-i. Acquiring Press Images
+#i. Acquiring Press Images#
 
 Free press images can be used for interviews and reviews of current, upcoming, or recent shows and exhibitions. Most large institutions and museums (such as MoMA or the Whitney) have online password protected press pages. With a press login, images can be downloaded without contacting the press office.  (The Met does not have a press site and must be contacted for each show.)
 
