@@ -18,25 +18,25 @@ Galleries will provide press images upon request, usually through WeTransfer or 
 
 It is most efficient to contact galleries and museums for ArtSeen images once the ToC has been built up partway through the month. This way, they can all be contacted during the same day. Once images are received, they should be downloaded into the Images/ArtSeen folder and stored in the correct article folder.
 
-ii. Preparing Images for Print
+**ii. Preparing Images for Print**
 
 Within each section folder, images to accompany articles should be clearly marked and all images that will not be used should be stored in an Extras folder. Most sections do not need to be divided into separate article folders. Features and ArtSeen should be divided by article, as they have so many images. Once each section is complete, the images can be copied into a new Grayscale folder within the section folder. Use the Grayscale droplet to reformat all images for the designer. This will format all images as grayscale jpegs at 300dpi.
 
 Whenever reformatting images, use a new file and never save over the original
 
-iii. Preparing Images for Web
+**iii. Preparing Images for Web**
 
 All images must be resized before uploading to the website. In addition, each article needs one banner and one thumbnail. Featured interviews also need a homepage banner.
 
 The Web Images folder should mirror the Images folder, but should only contain resized images
 
 Single image resizing
-1.	Open image file in Photoshop
-2.	Command + Option + Shift + S
-3.	Save for Web window will open
-4.	On the right hand side, choose JPEG, Quality: Very High
-5.	On the bottom, adjust the width to 600px (portrait) or 800px (landscape)
-6.	Save in appropriate Web images folder
+1.Open image file in Photoshop
+1.Command + Option + Shift + S
+1.Save for Web window will open
+1.On the right hand side, choose JPEG, Quality: Very High
+1.On the bottom, adjust the width to 600px (portrait) or 800px (landscape)
+1.Save in appropriate Web images folder
 
 Banners and thumbnails
 1.	Open image file in Photoshop
@@ -67,7 +67,7 @@ Batch image resizing (only for resizing entire folders)
 7.	Type 600 for width, 10000 for height
 8.	Click Run at top right
 
-iv. Captions
+**iv. Captions**
 
 Section editors that provide their own images will provide caption sheets as well—make sure that their captions conform to house style and that they are clearly linked to file names. 
 
@@ -79,7 +79,7 @@ Artist Name, Title, Year. Medium, Dimensions. Copyright. Photo: Photographer Nam
 
 See Editorial Supplement for more detailed caption information
 
-v. Image Rights and Restrictions
+**v. Image Rights and Restrictions**
 
 When sourcing images outside of current press coverage, be careful to seek out the copyright status of the image. Images that are in the public domain can be reproduced for free.  Whether or not an image is in the public domain depends on when it was created, who created it, and what jurisdiction it falls under. 
 
