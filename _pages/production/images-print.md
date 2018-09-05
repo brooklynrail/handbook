@@ -39,33 +39,33 @@ Single image resizing
 1. Save in appropriate Web images folder
 
 Banners and thumbnails
-1.	Open image file in Photoshop
-2.	Click on rectangular marquee tool (second from top on left hand column)
-3.	On the top toolbar, click ‘Fixed Ratio’ on the dropdown Style menu
-4.	Set the ratio:
-a.	Thumbnails: width: 1, height: 1
-b.	Banners: width: 280, height: 85
-c.	Homepage Banners: width: 595, height: 254
-5.	Click and drag to make your selection on the image
-6.	Command + C
-7.	Command + N
-8.	Hit Enter, a new blank document should appear with the correct ratio
-9.	Command + V
-10.	 Command + Option + Shift + S
-11.	Save for Web window will open
-12.	On the right hand side, choose JPEG, Quality: Very High
-13.	On the bottom, adjust the width to 280px (banners) or 60px (thumbnails)
-14.	Save in appropriate Web images folder
+1. Open image file in Photoshop
+1. Click on rectangular marquee tool (second from top on left hand column)
+1. On the top toolbar, click ‘Fixed Ratio’ on the dropdown Style menu
+1. Set the ratio:
+   1. Thumbnails: width: 1, height: 1
+   1. Banners: width: 280, height: 85
+   1. Homepage Banners: width: 595, height: 254
+1. Click and drag to make your selection on the image
+1. Command + C
+1. Command + N
+1. Hit Enter, a new blank document should appear with the correct ratio
+1. Command + V
+1. Command + Option + Shift + S
+1. Save for Web window will open
+1. On the right hand side, choose JPEG, Quality: Very High
+1. On the bottom, adjust the width to 280px (banners) or 60px (thumbnails)
+1. Save in appropriate Web images folder
 
 Batch image resizing (only for resizing entire folders)
-1.	Prepare a folder that contains only images to be resized
-2.	Open Photoshop, go to File/Scripts/Image Processor
-3.	Under ‘Select Images to Process’ choose the prepared folder
-4.	Under ‘Select Location to save processed images’ choose the correct Web Images folder
-5.	Under ‘File Type’ click ‘Save as JPEG’ and ‘Resize to fit’
-6.	Type 8 for Quality
-7.	Type 600 for width, 10000 for height
-8.	Click Run at top right
+1. Prepare a folder that contains only images to be resized
+1. Open Photoshop, go to File/Scripts/Image Processor
+1. Under ‘Select Images to Process’ choose the prepared folder
+1. Under ‘Select Location to save processed images’ choose the correct Web Images folder
+1. Under ‘File Type’ click ‘Save as JPEG’ and ‘Resize to fit’
+1. Type 8 for Quality
+1. Type 600 for width, 10000 for height
+1. Click Run at top right
 
 **iv. Captions**
 
