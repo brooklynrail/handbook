@@ -31,12 +31,12 @@ All images must be resized before uploading to the website. In addition, each ar
 The Web Images folder should mirror the Images folder, but should only contain resized images
 
 Single image resizing
-1.Open image file in Photoshop
-1.Command + Option + Shift + S
-1.Save for Web window will open
-1.On the right hand side, choose JPEG, Quality: Very High
-1.On the bottom, adjust the width to 600px (portrait) or 800px (landscape)
-1.Save in appropriate Web images folder
+1. Open image file in Photoshop
+1. Command + Option + Shift + S
+1. Save for Web window will open
+1. On the right hand side, choose JPEG, Quality: Very High
+1. On the bottom, adjust the width to 600px (portrait) or 800px (landscape)
+1. Save in appropriate Web images folder
 
 Banners and thumbnails
 1.	Open image file in Photoshop
