@@ -37,7 +37,7 @@
     - name: 'Image Rights and Restrictions'
       path: '/production/'
 - name: Web Guide
-  path: '/production/'
+  path: '/production/web-guide/'
   subnav:
     - name: 'Web Standards'
       path: '/production/'
