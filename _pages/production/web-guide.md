@@ -1,7 +1,7 @@
 ---
 layout: guide
-title: Images
-permalink: /production/images/
+title: Web Guide
+permalink: /production/web-guide/
 guide: production
 
 ---
