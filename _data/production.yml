@@ -24,7 +24,7 @@
     - name: 'Proofreader’s Marks'
       path: '/production/'
 - name: Images
-  path: '/production/'
+  path: '/production/images/'
   subnav:
     - name: 'Acquiring Press Images'
       path: '/production/'
