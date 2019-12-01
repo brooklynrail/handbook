@@ -1,8 +1,5 @@
 ---
-layout: page
-title: Production
-permalink: /production/
-guide: production
+title: Production Guide
 ---
 
 this is the production guide home.

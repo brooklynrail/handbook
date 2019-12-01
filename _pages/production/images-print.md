@@ -1,9 +1,5 @@
 ---
-layout: page
 title: Images for Print
-permalink: /production/images-print/
-guide: production
-
 ---
 
 
@@ -72,7 +68,7 @@ Batch image resizing (only for resizing entire folders)
 
 ## iv. Captions
 
-Section editors that provide their own images will provide caption sheets as well—make sure that their captions conform to house style and that they are clearly linked to file names. 
+Section editors that provide their own images will provide caption sheets as well—make sure that their captions conform to house style and that they are clearly linked to file names.
 
 Caption sheets for Features, ArtSeen, and (usually) Critics Page will have to be built in office.
 
@@ -84,13 +80,13 @@ See Editorial Supplement for more detailed caption information
 
 ## v. Image Rights and Restrictions
 
-When sourcing images outside of current press coverage, be careful to seek out the copyright status of the image. Images that are in the public domain can be reproduced for free.  Whether or not an image is in the public domain depends on when it was created, who created it, and what jurisdiction it falls under. 
+When sourcing images outside of current press coverage, be careful to seek out the copyright status of the image. Images that are in the public domain can be reproduced for free.  Whether or not an image is in the public domain depends on when it was created, who created it, and what jurisdiction it falls under.
 
-Reproduction rights for images that are not in the public domain must be secured from the copyright holder or their representative agency. 
+Reproduction rights for images that are not in the public domain must be secured from the copyright holder or their representative agency.
 
 It is important to note that just because an artwork is in the public domain does not mean that the photograph of the artwork is in the public domain. Many museums maintain copyrights over photographs of works in their collection. A notable exception is the Met, which allows free download and use of images of works in its collection whose copyrights have expired. For historical photographs in the public domain, check the Library of Congress digital archive, or any other national library collection—they will often provide free downloads of public domain images.
 
-Large museums and artist estates outsource the management of image copyrights to agencies such as VAGA or ArtRES. When contacting these agencies for quotes, make sure to ask for a nonprofit discount, and to take into account the overall budget for images for the issue. To save time when dealing with foreign museums and agencies, check for agencies within the U.S. that represent the same estates or collections—you will ultimately be directed to the U.S. agency for a final contract. 
+Large museums and artist estates outsource the management of image copyrights to agencies such as VAGA or ArtRES. When contacting these agencies for quotes, make sure to ask for a nonprofit discount, and to take into account the overall budget for images for the issue. To save time when dealing with foreign museums and agencies, check for agencies within the U.S. that represent the same estates or collections—you will ultimately be directed to the U.S. agency for a final contract.
 
 After an image contract is signed or an invoice is received, give the physical document to the Managing Director for processing and archiving.
 

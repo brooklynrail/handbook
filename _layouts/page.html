@@ -2,19 +2,15 @@
 layout: default
 ---
 
-<div class="row">
-  <div class="col-2">
-    {% include main_nav.html %}
-  </div>
-  <div class="col-8">
-    <div class="entry">
-      <div class="entry-head">
-        <h1>{{ page.title | escape }}</h1>
-      </div>
-      <div class="entry-content">
-        {{ content }}
-      </div>
-      {% include entry-meta.html %}
-    </div>
-  </div>
+<header>
+  <h1>{{ page.title | escape }}</h1>
+
+  {% if page.deck %}
+  <div class="margin-y-1 line-height-sans-2 text-light font-sans-xl desktop-lg:font-sans-3xl">{{ page.deck | escape }}</div>
+  {% endif %}
+  
+</header>
+
+<div class="usa-content">
+  {{ content }}
 </div>
