@@ -1,5 +1,5 @@
 ---
-layout: guide
+layout: page
 title: Office Guide
 permalink: /office/
 guide: office

@@ -1,5 +1,5 @@
 ---
-layout: guide
+layout: page
 title: Events
 permalink: /events/
 guide: events

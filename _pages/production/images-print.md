@@ -1,5 +1,5 @@
 ---
-layout: guide
+layout: page
 title: Images for Print
 permalink: /production/images-print/
 guide: production

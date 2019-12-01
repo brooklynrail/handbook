@@ -3,18 +3,22 @@
 
   {% include head.html %}
 
-  <body class="my3">
+  <body>
+    <div class="paper">
+      {% include header.html %}
 
-    {% include header.html %}
+      <main>
+        <div class="grid-container grid-container-desktop-lg">
+          <div class="grid-row">
+            <div class="grid-col-12">
+              {{ content }}
+            </div>
+          </div>
+        </div>
+      </main>
 
-    <main>
-      <div class="container">
-        {{ content }}
-      </div>
-    </main>
-
-    {% include footer.html %}
-
+      {% include footer.html %}
+    </div>
   </body>
 
 </html>

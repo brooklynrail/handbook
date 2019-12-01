@@ -1,5 +1,5 @@
 ---
-layout: guide
+layout: page
 title: Archive
 permalink: /archive/
 guide: archive

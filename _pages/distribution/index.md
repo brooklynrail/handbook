@@ -1,5 +1,5 @@
 ---
-layout: guide
+layout: page
 title: Distribution
 permalink: /distribution/
 guide: distribution

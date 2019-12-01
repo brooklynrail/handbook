@@ -1,5 +1,5 @@
 ---
-layout: guide
+layout: page
 title: Production
 permalink: /production/
 guide: production

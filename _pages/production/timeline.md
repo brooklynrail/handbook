@@ -1,5 +1,5 @@
 ---
-layout: guide
+layout: page
 title: Timeline
 permalink: /production/timeline/
 guide: production

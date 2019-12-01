@@ -37,7 +37,8 @@ PATHS
 */
 
 // Project Sass source directory
-const PROJECT_SASS_SRC = './_src/uswds';
+const PROJECT_SASS_SRC = './_src';
+const USWDS_SASS_SRC = './_src/uswds';
 
 // Images destination
 const IMG_DEST = './assets/img';
@@ -64,7 +65,7 @@ TASKS
 
 gulp.task('copy-uswds-setup', () => {
   return gulp.src(`${uswds}/scss/theme/**/**`)
-  .pipe(gulp.dest(`${PROJECT_SASS_SRC}`));
+  .pipe(gulp.dest(`${USWDS_SASS_SRC}`));
 });
 
 gulp.task('copy-uswds-fonts', () => {
@@ -92,12 +93,12 @@ gulp.task('build-sass', function(done) {
     cssnano(({ autoprefixer: { browsers: autoprefixerOptions }}))
   ];
   return gulp.src([
-      `${PROJECT_SASS_SRC}/*.scss`
+      `${USWDS_SASS_SRC}/*.scss`
     ])
     .pipe(sourcemaps.init({ largeFile: true }))
     .pipe(sass({
         includePaths: [
-          `${PROJECT_SASS_SRC}`,
+          `${USWDS_SASS_SRC}`,
           `${uswds}/scss`,
           `${uswds}/scss/packages`,
         ]
