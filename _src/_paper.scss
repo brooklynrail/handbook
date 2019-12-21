@@ -1,3 +1,7 @@
+body{
+  @include u-margin(0);
+  @include u-bg('red-50v');
+}
 .paper{
-  // background: green;
+  @include u-bg('white');
 }

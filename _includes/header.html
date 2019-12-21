@@ -1,11 +1,11 @@
 <header>
   <div class="grid-container grid-container-desktop-lg">
     <div class="grid-row">
-      <div class="grid-col-7">
+      <div class="grid-col-12">
         {% if page.layout == 'home' %}
-          <h1 id="logo"><a href="{{ site.baseurl }}" title="{{ site.title }}"><img src="{{ '/assets/img/brooklyn-rail-logo-2019-outline-red.svg' | relative_url }}" alt="{{ site.title }}"></a></h1>
+          <h1 class="logo"><a href="{{ site.baseurl }}" title="{{ site.title }}"><img src="{{ '/assets/img/brooklyn-rail-logo-2019-outline-red.svg' | relative_url }}" alt="{{ site.title }}"></a></h1>
         {% else %}
-          <h2 id="logo"><a href="{{ site.baseurl }}" title="{{ site.title }}"><img src="{{ '/assets/img/brooklyn-rail-logo-2019-outline-red.svg' | relative_url }}" alt="{{ site.title }}"></a></h2>
+          <h2 class="logo"><a href="{{ site.baseurl }}" title="{{ site.title }}"><img src="{{ '/assets/img/brooklyn-rail-logo-2019-outline-red.svg' | relative_url }}" alt="{{ site.title }}"></a></h2>
         {% endif %}
       </div>
     </div>
