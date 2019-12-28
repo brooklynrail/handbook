@@ -1,5 +1,5 @@
 ---
-title: Distribution
+title: Distribution Locations
 category: Distribution
 ---
 

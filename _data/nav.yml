@@ -1,0 +1,29 @@
+main_nav:
+  - text: Design
+    href: /design/index
+  - text: Events
+    href: /events/index
+  - text: Distribution
+    href: /distribution/index
+  - text: Production
+    href: /production/index
+
+Design:
+  - text: Typography
+    href: /design/typography
+  - text: Logos
+    href: /design/logos
+
+Events:
+  - text: Calendar
+    href: /events/calendar
+
+Distribution:
+  - text: Locations
+    href: /distribution/locations
+
+Production:
+  - text: Images / Print
+    href: /production/images-print/
+  - text: Images / Web
+    href: /production/images-web/

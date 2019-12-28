@@ -1,5 +1,5 @@
 ---
-title: Events
+title: Events Calendar
 category: Events
 ---
 

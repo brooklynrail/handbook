@@ -1,7 +1,8 @@
-<nav>
-  <ul>
-  {% for page in site.pages %}
-    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-  {% endfor %}
-  </ul>
-</nav>
+<ul class="usa-sidenav">
+{% for item in include.nav %}
+  <li class="usa-sidenav__item">
+    <a class="{% if item.href == page.url %}usa-current{% endif %}" href="{{ item.href }}" title="{{ item.text }}"><strong>{{ item.text }}</strong></a>
+    {% include subnav.html group=item.text %}
+  </li>
+{% endfor %}
+</ul>

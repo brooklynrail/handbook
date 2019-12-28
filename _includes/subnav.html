@@ -1,0 +1,7 @@
+<ul class="usa-sidenav__sublist">
+  {% for item in site.data.nav.[include.group] %}
+    <li class="usa-sidenav__item">
+      <a class="{% if item.href == page.url %}usa-current{% endif %}" href="{{ item.href }}" title="{{ item.text }}">{{ item.text }}</a>
+    </li>
+  {% endfor %}
+</ul>
