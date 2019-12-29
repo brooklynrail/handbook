@@ -1,3 +1,6 @@
+#main-content{
+  @include u-padding-y(5);
+}
 .usa-content{
   code{
     @include u-margin-x('2px');

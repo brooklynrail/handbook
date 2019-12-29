@@ -7,14 +7,16 @@
     <div class="paper">
       {% include header.html %}
 
-      <main>
+      <main id="main-content" class="usa-layout-docs usa-section">
         <div class="grid-container grid-container-desktop-lg">
-          <div class="grid-row grid-gap-4">
+          <div class="grid-row tablet:grid-gap-6">
             <div class="grid-col-12 tablet:grid-col-2">
 
-              <nav aria-label="Secondary navigation">
-                {% include nav.html nav=site.data.nav.main_nav %}
-              </nav>
+              <aside class="usa-layout-docs__sidenav">
+                <nav aria-label="Secondary navigation">
+                  {% include nav.html nav=site.data.nav.main_nav %}
+                </nav>
+              </aside>
 
             </div>
             <div class="grid-col-12 tablet:grid-col-10">

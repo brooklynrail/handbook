@@ -2,15 +2,12 @@
 layout: default
 ---
 
-<header>
+<div class="usa-layout-docs__main usa-prose">
   <h1>{{ page.title | escape }}</h1>
 
   {% if page.deck %}
-  <div class="deck">{{ page.deck | escape }}</div>
+  <div class="deck usa-intro">{{ page.deck | escape }}</div>
   {% endif %}
 
-</header>
-
-<div class="usa-content">
   {{ content }}
 </div>
