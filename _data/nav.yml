@@ -1,3 +1,7 @@
+# ====================
+# Main Navigation
+# This is the top-level navigation for the handbook.
+
 main_nav:
   - text: Design
     slug: design
@@ -10,11 +14,25 @@ main_nav:
   - text: Style Guide
     slug: style-guide
 
+# ====================
+# Section specific nav
+# Each of these contain the navigation for a specific Section
+# - text == the text that will display in the navigation
+# - slug == this should be equal to the filename
+
+# NOTE: When editing, make sure spacing is correct, otherwise it'll break.
+
 style-guide:
   - text: Workflow
     slug: editing-workflow
   - text: House Style
     slug: house-style
+  - text: Time and Numbers
+    slug: time-numbers
+  - text: Names, Places, and Titles
+    slug: names-places-titles
+  - text: Foreign Language Names and Titles
+    slug: foreign-language-names-and-titles
 
 design:
   - text: Typography

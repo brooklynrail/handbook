@@ -4,5 +4,6 @@ body{
 }
 .paper{
   @include u-bg('white');
-  @include u-height('viewport');
+  @include u-height('full');
+  @include u-minh('viewport');
 }
