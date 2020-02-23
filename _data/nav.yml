@@ -1,8 +1,11 @@
 # ====================
 # Main Navigation
 # This is the top-level navigation for the handbook.
+# It also determines the order of the handbook sections
 
 main_nav:
+  - text: Style Guide
+    slug: style-guide
   - text: Design
     slug: design
   - text: Events
@@ -11,8 +14,6 @@ main_nav:
     slug: distribution
   - text: Production
     slug: production
-  - text: Style Guide
-    slug: style-guide
 
 # ====================
 # Section specific nav
