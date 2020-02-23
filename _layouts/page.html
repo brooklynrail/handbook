@@ -18,13 +18,15 @@ layout: default
       </div>
       <div class="grid-col-12 tablet:grid-col-10">
 
-        <div class="usa-layout-docs__main usa-prose">
+        <div class="usa-layout-docs__main usa-prose page-head">
           <h1>{{ page.title | escape }}</h1>
 
           {% if page.deck %}
           <div class="deck usa-intro">{{ page.deck | escape }}</div>
           {% endif %}
+        </div>
 
+        <div class="usa-layout-docs__main usa-prose">
           {{ content }}
         </div>
 

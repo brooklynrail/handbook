@@ -19,3 +19,15 @@
     @include u-radius('sm');
   }
 }
+
+
+.page-head{
+  @include u-margin-bottom(8);
+  h1{
+
+  }
+  .deck{
+    @include u-margin-top(1);
+    @include u-text('thin');
+  }
+}

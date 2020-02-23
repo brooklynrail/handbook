@@ -1,5 +1,6 @@
 ---
 title: House Style
+deck: The deck
 nav: style-guide
 ---
 
