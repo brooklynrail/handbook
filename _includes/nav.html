@@ -2,7 +2,13 @@
 {% for item in include.nav %}
   <li class="usa-sidenav__item">
     <a class="{% if item.href == page.url %}usa-current{% endif %}" href="{{ item.href }}" title="{{ item.text }}"><strong>{{ item.text }}</strong></a>
-    {% include subnav.html group=item.text %}
+    {% assign id = item.href | replace:'/','' %}
+    {% if id == page.category %}
+      {% if site.data.nav.[page.category] %}
+        {% include subnav.html group=page.category %}
+      {% endif %}
+    {% endif %}
+
   </li>
 {% endfor %}
 </ul>

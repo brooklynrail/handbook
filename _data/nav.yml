@@ -1,29 +1,35 @@
 main_nav:
   - text: Design
-    href: /design/index
+    href: /design
   - text: Events
-    href: /events/index
+    href: /events
   - text: Distribution
-    href: /distribution/index
+    href: /distribution
   - text: Production
-    href: /production/index
+    href: /production
+  - text: Style Guide
+    href: /style-guide
 
-Design:
+style-guide:
+  - text: editing workflow
+    href: /style-guide/editing-workflow
+
+design:
   - text: Typography
     href: /design/typography
   - text: Logos
     href: /design/logos
 
-Events:
+events:
   - text: Calendar
     href: /events/calendar
 
-Distribution:
+distribution:
   - text: Locations
     href: /distribution/locations
 
-Production:
-  - text: Images / Print
-    href: /production/images-print/
+production:
+  - text: Imagesss / Print
+    href: /production/images-print
   - text: Images / Web
-    href: /production/images-web/
+    href: /production/images-web

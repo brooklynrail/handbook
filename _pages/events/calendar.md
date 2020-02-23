@@ -1,6 +1,6 @@
 ---
 title: Events Calendar
-category: Events
+category: events
 ---
 
 this is the Events guide home.
