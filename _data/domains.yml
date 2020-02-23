@@ -3,7 +3,9 @@ domains:
     href: https://brooklynrail.org
   - text: donate.brooklynrail.org
     href: https://donate.brooklynrail.org
-  - text: intranslation.brooklynrail.org
+  - text: InTranslation
     href: https://intranslation.brooklynrail.org
-  - text: curatorialprojects.brooklynrail.org
+  - text: Curatorial Projects
     href: http://curatorialprojects.brooklynrail.org
+  - text: Venice
+    href: http://venice.brooklynrail.org
