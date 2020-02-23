@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<header>
+  <div class="grid-container grid-container-widescreen">
+    <div class="grid-row tablet:grid-gap-6">
+      <div class="grid-col-12 tablet:grid-col-8 tablet:grid-offset-2">
+        <a href="{{ site.baseurl }}" title="Home" aria-label="Home"><img src="{{ '/assets/img/br-icon-w300black.svg' | relative_url }}" alt="{{ site.title }}"></a>
+        <h1><a href="{{ site.baseurl }}" title="Home" aria-label="Home">{{ site.title }}</a></h1>
+        {% if page.deck %}
+        <div class="deck usa-intro">{{ page.deck | escape }}</div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="main-content" class="usa-layout-docs usa-section">
+  <div class="grid-container grid-container-widescreen">
+    <div class="grid-row">
+      <div class="grid-col-12 tablet:grid-col-6 tablet:grid-offset-3">
+
+        {{ content }}
+
+        <ul>
+        {% for item in site.data.nav.main_nav %}
+          <li>
+            <a href="{{ item.href }}" title="{{ item.text }}">{{ item.text }}</a>
+          </li>
+        {% endfor %}
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</main>

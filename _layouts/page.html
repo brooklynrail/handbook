@@ -2,12 +2,35 @@
 layout: default
 ---
 
-<div class="usa-layout-docs__main usa-prose">
-  <h1>{{ page.title | escape }}</h1>
+{% include header.html %}
 
-  {% if page.deck %}
-  <div class="deck usa-intro">{{ page.deck | escape }}</div>
-  {% endif %}
+<main id="main-content" class="usa-layout-docs usa-section">
+  <div class="grid-container grid-container-widescreen">
+    <div class="grid-row tablet:grid-gap-6">
+      <div class="grid-col-12 tablet:grid-col-2">
 
-  {{ content }}
-</div>
+        <aside class="usa-layout-docs__sidenav">
+          <nav aria-label="Secondary navigation">
+            {% include nav.html nav=site.data.nav.main_nav %}
+          </nav>
+        </aside>
+
+      </div>
+      <div class="grid-col-12 tablet:grid-col-10">
+
+        <div class="usa-layout-docs__main usa-prose">
+          <h1>{{ page.title | escape }}</h1>
+
+          {% if page.deck %}
+          <div class="deck usa-intro">{{ page.deck | escape }}</div>
+          {% endif %}
+
+          {{ content }}
+        </div>
+
+      </div>
+    </div>
+  </div>
+</main>
+
+{% include footer.html %}

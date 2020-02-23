@@ -1,0 +1,35 @@
+.home{
+  .paper{
+    @include u-padding-y(10);
+  }
+  header{
+    @include u-text('center');
+    img{
+      @include u-margin-bottom(4);
+      @include u-width(15);
+    }
+    h1{
+      @include u-margin-y(0);
+      a{
+        @include u-font('sans', 'lg');
+        @include u-text('medium');
+        @include u-text('black');
+        @include u-text('no-underline');
+      }
+    }
+  }
+
+  #main-content{
+    @include u-padding-y(1);
+    ul{
+      @include u-font('sans', 'md');
+      @include add-list-reset;
+      @include u-text('center');
+      li{
+        @include u-padding-y('05');
+        @include u-text('normal');
+      }
+    }
+  }
+
+}
