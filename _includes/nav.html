@@ -1,11 +1,11 @@
 <ul class="usa-sidenav">
 {% for item in include.nav %}
   <li class="usa-sidenav__item">
-    <a class="{% if item.href == page.url %}usa-current{% endif %}" href="{{ item.href }}" title="{{ item.text }}"><strong>{{ item.text }}</strong></a>
-    {% assign id = item.href | replace:'/','' %}
-    {% if id == page.category %}
-      {% if site.data.nav.[page.category] %}
-        {% include subnav.html group=page.category %}
+    <a class="{% if item.slug == page.url %}usa-current{% endif %}" href="/{{ item.slug }}" title="{{ item.text }}"><strong>{{ item.text }}</strong></a>
+    {% assign id = item.slug | replace:'/','' %}
+    {% if id == page.nav %}
+      {% if site.data.nav.[page.nav] %}
+        {% include subnav.html group=page.nav %}
       {% endif %}
     {% endif %}
 

@@ -1,6 +1,6 @@
 ---
 title: Distribution Locations
-category: distribution
+nav: distribution
 ---
 
 this is the Distribution guide home.

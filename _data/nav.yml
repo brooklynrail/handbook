@@ -1,35 +1,37 @@
 main_nav:
   - text: Design
-    href: /design
+    slug: design
   - text: Events
-    href: /events
+    slug: events
   - text: Distribution
-    href: /distribution
+    slug: distribution
   - text: Production
-    href: /production
+    slug: production
   - text: Style Guide
-    href: /style-guide
+    slug: style-guide
 
 style-guide:
-  - text: editing workflow
-    href: /style-guide/editing-workflow
+  - text: Workflow
+    slug: editing-workflow
+  - text: House Style
+    slug: house-style
 
 design:
   - text: Typography
-    href: /design/typography
+    slug: typography
   - text: Logos
-    href: /design/logos
+    slug: logos
 
 events:
   - text: Calendar
-    href: /events/calendar
+    slug: calendar
 
 distribution:
   - text: Locations
-    href: /distribution/locations
+    slug: locations
 
 production:
   - text: Imagesss / Print
-    href: /production/images-print
+    slug: images-print
   - text: Images / Web
-    href: /production/images-web
+    slug: images-web

@@ -26,7 +26,7 @@ layout: default
         <ul>
         {% for item in site.data.nav.main_nav %}
           <li>
-            <a href="{{ item.href }}" title="{{ item.text }}">{{ item.text }}</a>
+            <a href="{{ item.slug }}" title="{{ item.text }}">{{ item.text }}</a>
           </li>
         {% endfor %}
         </ul>

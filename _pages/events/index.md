@@ -1,6 +1,6 @@
 ---
 title: Events
-category: events
+nav: events
 ---
 
 this is the Events guide home.

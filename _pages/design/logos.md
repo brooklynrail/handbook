@@ -1,6 +1,6 @@
 ---
 title: Logos
-category: design
+nav: design
 ---
 
 

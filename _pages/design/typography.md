@@ -1,6 +1,6 @@
 ---
 title: Typography
-category: design
+nav: design
 ---
 
 

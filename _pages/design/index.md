@@ -1,6 +1,6 @@
 ---
 title: Design Overview
-category: design
+nav: design
 deck: Everything about design
 ---
 
