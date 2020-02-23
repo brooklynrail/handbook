@@ -4,7 +4,7 @@
     <div class="usa-navbar">
       <div class="usa-logo" id="basic-logo">
         <em class="usa-logo__text">
-          <a href="{{ site.baseurl }}" title="Home" aria-label="Home"><img src="{{ '/assets/img/br-icon-w300black.svg' | relative_url }}" alt="{{ site.title }}"> <span>Handbook</span></a>
+          <a href="{{ site.baseurl }}" title="Home" aria-label="Home"><img src="{{ '/assets/img/br-icon-w300black.svg' | relative_url }}" alt="{{ site.title }}"> <span>{{ site.title }}</span></a>
         </em>
       </div>
       <button class="usa-menu-btn">Menu</button>
@@ -13,7 +13,7 @@
       <button class="usa-nav__close"><img src="/assets/img/close.svg" alt="close"></button>
       <ul class="usa-nav__primary usa-accordion">
         <li class="usa-nav__primary-item">
-          <button class="usa-accordion__button usa-nav__link  usa-current" aria-expanded="false" aria-controls="basic-nav-section-one"><span>Brooklynrail.org</span></button>
+          <button class="usa-accordion__button usa-nav__link  usa-current" aria-expanded="false" aria-controls="basic-nav-section-one"><span>brooklynrail.org</span></button>
           <ul id="basic-nav-section-one" class="usa-nav__submenu">
             {% for site in site.data.domains.domains %}
               <li class="usa-nav__submenu-item">
