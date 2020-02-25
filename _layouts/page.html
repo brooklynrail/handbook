@@ -27,7 +27,8 @@ layout: default
         </div>
 
         <div class="usa-layout-docs__main usa-prose">
-          {{ content }}
+          {% include toc.html html=content h_max=2 %}
+          {% include anchor_headings.html html=content %}
         </div>
 
       </div>
