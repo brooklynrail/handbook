@@ -1,4 +1,4 @@
 ---
 title: Images for Web
-nav: production
+nav: production-guide
 ---

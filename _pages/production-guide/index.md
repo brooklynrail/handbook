@@ -1,6 +1,6 @@
 ---
 title: Production Guide
-nav: production
+nav: production-guide
 ---
 
 this is the production guide home.
