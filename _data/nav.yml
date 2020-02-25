@@ -6,14 +6,14 @@
 main_nav:
   - text: Style Guide
     slug: style-guide
+  - text: Production Guide
+    slug: production-guide
   - text: Design
     slug: design
   - text: Events
     slug: events
   - text: Distribution
     slug: distribution
-  - text: Production
-    slug: production
 
 # ====================
 # Section specific nav
@@ -49,7 +49,7 @@ distribution:
   - text: Locations
     slug: locations
 
-production:
+production-guide:
   - text: Imagesss / Print
     slug: images-print
   - text: Images / Web
