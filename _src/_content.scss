@@ -1,7 +1,38 @@
 #main-content{
   // @include u-padding-y(4);
 }
-.usa-content{
+.usa-prose{
+  h2{
+    @include u-border-top('1px', 'base-lighter', 'solid');
+    @include u-margin-top(6);
+    @include u-padding-top(6);
+    @include u-padding-bottom(2);
+    @include u-text('light');
+    a{
+      @include u-position('relative');
+      @include u-circle(4);
+      &::before{
+        @include u-position('absolute');
+        @include u-top(1);
+        @include u-margin-right(1);
+        @include u-padding-y('05');
+        @include u-padding-right('105');
+        @include u-padding-left('05');
+        @include u-left('neg-3');
+        @include u-text('underline');
+        content: "";
+        @include u-font('mono', 'md');
+      }
+    }
+    &:hover{
+      a{
+        &::before{
+          content: " #";
+        }
+      }
+    }
+  }
+
   code{
     @include u-margin-x('2px');
     @include u-padding-x('05');
@@ -17,6 +48,12 @@
     @include u-bg('base-lightest');
     @include u-border('1px', 'base-lighter', 'solid');
     @include u-radius('sm');
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
   }
 }
 
@@ -29,5 +66,20 @@
   .deck{
     @include u-margin-top(1);
     @include u-text('thin');
+  }
+}
+
+.toc{
+  // @include u-padding(2);
+  // @include u-bg('base-lightest');
+  h2{
+    // @include u-margin-y(0);
+    @include u-font('sans', 'lg');
+  }
+  ul{
+    @include u-font('sans', 'md');
+    li{
+      @include u-margin-y('05');
+    }
   }
 }

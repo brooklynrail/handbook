@@ -1,3 +1,17 @@
-.sidenav{
-
+.usa-layout-docs__sidenav{
+  nav{
+    ul.usa-sidenav{
+      li{
+        a{
+          @include u-text('black');
+          @include u-text('medium');
+        }
+        li{
+          a{
+            @include u-text('light');
+          }
+        }
+      }
+    }
+  }
 }

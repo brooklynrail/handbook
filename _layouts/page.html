@@ -16,7 +16,7 @@ layout: default
         </aside>
 
       </div>
-      <div class="grid-col-12 tablet:grid-col-10">
+      <div class="grid-col-12 tablet:grid-col-7">
 
         <div class="usa-layout-docs__main usa-prose page-head">
           <h1>{{ page.title | escape }}</h1>
@@ -28,7 +28,7 @@ layout: default
 
         <div class="usa-layout-docs__main usa-prose">
           {% include toc.html html=content h_max=2 %}
-          {% include anchor_headings.html html=content %}
+          {% include anchor_headings.html html=content beforeHeading=true %}
         </div>
 
       </div>
