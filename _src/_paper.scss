@@ -1,6 +1,6 @@
 body{
   @include u-margin(0);
-  @include u-bg('red-50v');
+  @include u-bg('black');
 }
 .paper{
   @include u-bg('white');

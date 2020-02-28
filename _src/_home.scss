@@ -5,14 +5,14 @@
   header{
     @include u-text('center');
     img{
-      @include u-margin-bottom(4);
-      @include u-width(15);
+      @include u-margin-bottom(2);
+      @include u-width('card');
     }
     h1{
       @include u-margin-y(0);
       a{
         @include u-font('sans', 'lg');
-        @include u-text('medium');
+        @include u-text('bold');
         @include u-text('black');
         @include u-text('no-underline');
       }
@@ -30,7 +30,7 @@
         @include u-text('center');
         li{
           @include u-padding-y('05');
-          @include u-text('normal');
+          @include u-text('medium');
           a{
 
           }
@@ -45,6 +45,7 @@
         li{
           a{
             @include u-text('black');
+            @include u-text('normal');
             @include u-text('no-underline');
             &:hover{
               @include u-text('underline');
