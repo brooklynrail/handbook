@@ -18,20 +18,34 @@ layout: default
 
 <main id="main-content" class="usa-layout-docs usa-section">
   <div class="grid-container grid-container-widescreen">
+
     <div class="grid-row">
-      <div class="grid-col-12 tablet:grid-col-6 tablet:grid-offset-3">
+      <div class="grid-col-12 tablet:grid-col-2 tablet:grid-offset-5">
 
         {{ content }}
 
-        <ul>
-        {% for item in site.data.nav.main_nav %}
-          <li>
-            <a href="{{ item.slug | absolute_url }}" title="{{ item.text }}">{{ item.text }}</a>
-          </li>
-        {% endfor %}
-        </ul>
+        <section>
+          <ul>
+          {% for item in site.data.nav.main_nav %}
+            <li>
+              <a href="{{ item.slug | absolute_url }}" title="{{ item.text }}">{{ item.text }}</a>
+            </li>
+          {% endfor %}
+          </ul>
+        </section>
+
+        <section class="domains">
+          <ul>
+          {% for item in site.data.domains.domains %}
+            <li>
+              <a href="{{ item.href }}" title="{{ item.text }}">{{ item.text }}</a>
+            </li>
+          {% endfor %}
+          </ul>
+        </section>
 
       </div>
     </div>
+
   </div>
 </main>

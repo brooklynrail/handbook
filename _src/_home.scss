@@ -21,13 +21,36 @@
 
   #main-content{
     @include u-padding-y(1);
-    ul{
-      @include u-font('sans', 'md');
-      @include add-list-reset;
-      @include u-text('center');
-      li{
-        @include u-padding-y('05');
-        @include u-text('normal');
+    section{
+      // @include u-margin-bottom(5);
+      @include u-padding-y(3);
+      ul{
+        @include u-font('sans', 'md');
+        @include add-list-reset;
+        @include u-text('center');
+        li{
+          @include u-padding-y('05');
+          @include u-text('normal');
+          a{
+
+          }
+        }
+      }
+    }
+
+    .domains{
+      @include u-border-top('1px','base-light','solid');
+      ul{
+        @include u-font('sans', 'xs');
+        li{
+          a{
+            @include u-text('black');
+            @include u-text('no-underline');
+            &:hover{
+              @include u-text('underline');
+            }
+          }
+        }
       }
     }
   }
