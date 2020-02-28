@@ -61,7 +61,7 @@
 .page-head{
   @include u-margin-bottom(8);
   h1{
-
+    @include u-font('sans', 'xl');
   }
   .deck{
     @include u-margin-top(1);
@@ -81,5 +81,19 @@
     li{
       @include u-margin-y('05');
     }
+  }
+}
+
+.edit{
+  @include u-margin-y(5);
+  a{
+    @include u-padding-y('05');
+    @include u-padding-x(1);
+    @include u-font('sans', 'xs');
+    @include u-text('red-50');
+    @include u-text('medium');
+    @include u-text('no-underline');
+    @include u-radius('sm');
+    @include u-border('1px', 'red-50', 'solid');
   }
 }

@@ -50,7 +50,7 @@ distribution:
     slug: locations
 
 production-guide:
-  - text: Imagesss / Print
+  - text: Images / Print
     slug: images-print
   - text: Images / Web
     slug: images-web
