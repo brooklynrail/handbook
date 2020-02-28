@@ -1,6 +1,7 @@
 .home{
   .paper{
     @include u-padding-y(10);
+    @include u-bg('base-lightest');
   }
   header{
     @include u-text('center');

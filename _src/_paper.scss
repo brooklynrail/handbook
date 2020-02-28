@@ -3,7 +3,7 @@ body{
   @include u-bg('black');
 }
 .paper{
-  @include u-bg('white');
+  @include u-bg('base-lightest');
   @include u-height('full');
   @include u-minh('viewport');
 }
