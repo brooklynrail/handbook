@@ -1,7 +1,7 @@
 <ul class="usa-sidenav">
 {% for item in include.nav %}
   <li class="usa-sidenav__item">
-    <a class="{% if item.slug == page.url %}usa-current{% endif %}" href="/{{ item.slug }}" title="{{ item.text }}">{{ item.text }}</a>
+    <a class="{% if item.slug == page.url %}usa-current{% endif %}" href="{{ site.baseurl }}/{{ item.slug }}" title="{{ item.text }}">{{ item.text }}</a>
     {% assign id = item.slug | replace:'/','' %}
     {% if id == page.nav %}
       {% if site.data.nav.[page.nav] %}

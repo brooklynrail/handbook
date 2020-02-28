@@ -1,7 +1,7 @@
 <ul class="usa-sidenav__sublist">
   {% for item in site.data.nav.[include.group] %}
     <li class="usa-sidenav__item">
-      <a class="{% if item.slug == page.url %}usa-current{% endif %}" href="/{{ include.group }}/{{ item.slug }}" title="{{ item.text }}">{{ item.text }}</a>
+      <a class="{% if item.slug == page.url %}usa-current{% endif %}" href="{{ site.baseurl }}/{{ include.group }}/{{ item.slug }}" title="{{ item.text }}">{{ item.text }}</a>
     </li>
   {% endfor %}
 </ul>
