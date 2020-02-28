@@ -1,9 +1,10 @@
 ---
 title: Names, Places, and Titles
 nav: style-guide
+
 ---
 
-## Capitalization of titles {#capitalization-of-titles}
+## Capitalization of titles
 
 In titles, capitalize all words except the articles (e.g., “a/an” and “the”) and conjunctions
 
@@ -14,7 +15,7 @@ headline or if part of a phrasal verb, e.g., “Lifting Up the Masses.”). Alwa
 any word following a colon, and the first and last word of a title.
 
 
-## Capitalization of “the” {#capitalization-of-“the”}
+## Capitalization of “the”
 
 In running text, lowercase “the” preceding the name of an institution, building, residence, business, etc. even if the article is part of the official name.
 
@@ -49,7 +50,7 @@ Retain the capitalized article in foreign-language publications, and all book an
 	She subscribes to _Le Monde _and _El País_.
 
 
-## Capitalization of first and last names {#capitalization-of-first-and-last-names}
+## Capitalization of first and last names
 
 Capitalize first and last names unless the person being discussed prefers a lowercase spelling. Always capitalize a name if it begins a sentence; if this contradicts the preferred spelling, rephrase the sentence.
 
@@ -58,7 +59,7 @@ Capitalize first and last names unless the person being discussed prefers a lowe
 	**Avoid:** Bell hooks wrote _And There We Wept_ in 1978.
 
 
-## Capitalization of “Black” {#capitalization-of-“black”}
+## Capitalization of “Black”
 
 Capitalize Black when referring to a culture, ethnicity, or group of people. Black with a capital B refers to people of the African diaspora. Do not capitalize when referring to the color black.
 
@@ -71,7 +72,7 @@ Capitalize Black when referring to a culture, ethnicity, or group of people. Bla
 If White is used in a comparative context within the same article, capitalize as well.
 
 
-## Capitalization of names with particle prefixes {#capitalization-of-names-with-particle-prefixes}
+## Capitalization of names with particle prefixes
 
 Generally, particles that are separated from last names should not be capitalized.
 
@@ -84,7 +85,7 @@ Capitalize these articles if they begin a sentence, but not if they appear in ru
 	_Woman I_, by de Kooning
 
 
-## Professional and academic titles {#professional-and-academic-titles}
+## Professional and academic title
 
 Descriptive titles are generally lowercase (curator, director, associate director, president, professor of art history) but capitalize exact titles.
 
