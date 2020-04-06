@@ -10,11 +10,8 @@
   <!-- CSS -->
   <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
 
-  <!-- RSS -->
-  {% feed_meta %}
-
   {% if jekyll.environment == 'production' and site.google_analytics %}
     {% include google-analytics.html %}
   {% endif %}
-  
+
 </head>
