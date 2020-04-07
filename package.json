@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "gulp": "gulp",
-    "build": "bundle exec jekyll serve",
+    "jekyll": "bundle exec jekyll serve",
     "netlify": "npx netlify-cms-proxy-server",
-    "start": "npm-run-all --parallel build gulp netlify",
+    "build": "npm-run-all --parallel jekyll gulp",
+    "start": "npm-run-all --parallel jekyll gulp netlify",
     "test:pa11y": "pa11y-ci --config .pa11yci"
   },
   "author": "",
