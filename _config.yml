@@ -25,7 +25,9 @@ github_username:  jeremyzilar
 markdown: kramdown
 # theme: minima
 plugins:
+  - jekyll-feed
   - jekyll-seo-tag
+  - jemoji
 
 defaults:
   - scope:
@@ -50,11 +52,11 @@ github:
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
-- CONTRIBUTING.md
-- Dockerfile
-- Gemfile
-- Gemfile.lock
-- LICENSE.md
-- README.md
-- go
-- vendor
+# - CONTRIBUTING.md
+# - Dockerfile
+# - Gemfile
+# - Gemfile.lock
+# - LICENSE.md
+# - README.md
+# - go
+# - vendor
