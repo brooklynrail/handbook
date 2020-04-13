@@ -1,3 +1,19 @@
+# ===========================
+
+# How to set up Netlify CMS to work with GitHub Pages
+# 1. go to https://github.com/organizations/brooklynrail/settings/applications
+# 2. Create a new OAuth App and enter
+  # - the name of the site
+  # - the primary URL for the site
+  # - a short description of the site
+  # - authorization callback URL `https://api.netlify.com/auth/done`
+
+# For reference:
+# - https://cnly.github.io/2018/04/14/just-3-steps-adding-netlify-cms-to-existing-github-pages-site-within-10-minutes.html
+# - https://sb-ph.com/posts/2019/01/working-with-netlify-cms-and-github-pages/
+
+# ===========================
+
 display_url: https://brooklynrail.github.io/brooklynrail-handbook/
 site_url: https://brooklynrail.github.io/brooklynrail-handbook/
 
@@ -5,9 +21,14 @@ site_url: https://brooklynrail.github.io/brooklynrail-handbook/
 logo_url: https://brooklynrail.github.io/brooklynrail-handbook/assets/img/br-diversity.svg
 
 # Backend and connections
+
 backend:
   name: github
   repo: brooklynrail/brooklynrail-handbook
+  # api_root: https://api.github.com
+  site_domain: brooklynrail-handbook.netlify.com
+  base_url: https://api.netlify.com
+  # auth_endpoint: auth
   open_authoring: true # accept contributions (forks) from GitHub users
   branch: master
   squash_merges: true # squash all commits into a single commit when the PR is merged
@@ -36,6 +57,7 @@ slug:
 
 # Localhost Editing
 # uses the local proxy server port
+# see our package.json for how to include this into build scripts
 local_backend:
   url: http://localhost:8081/api/v1
 
