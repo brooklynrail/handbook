@@ -8,12 +8,8 @@ main_nav:
     slug: style-guide
   - text: Production Guide
     slug: production-guide
-  - text: Design
-    slug: design
   - text: Events
     slug: events
-  - text: Distribution
-    slug: distribution
 
 # ====================
 # Section specific nav
