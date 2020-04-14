@@ -2,6 +2,10 @@
 # Main Navigation
 # This is the top-level navigation for the handbook.
 # It also determines the order of the handbook sections
+# - text == the text that will display in the navigation
+# - slug == this should be equal to the filename
+
+# NOTE: When editing, make sure spacing is correct, otherwise it'll break.
 
 main_nav:
   - text: Style Guide
@@ -10,43 +14,3 @@ main_nav:
     slug: production-guide
   - text: Events
     slug: events
-
-# ====================
-# Section specific nav
-# Each of these contain the navigation for a specific Section
-# - text == the text that will display in the navigation
-# - slug == this should be equal to the filename
-
-# NOTE: When editing, make sure spacing is correct, otherwise it'll break.
-
-style-guide:
-  - text: Workflow
-    slug: editing-workflow
-  - text: House Style
-    slug: house-style
-  - text: Time and Numbers
-    slug: time-numbers
-  - text: Names, Places, and Titles
-    slug: names-places-titles
-  - text: Foreign Language Names and Titles
-    slug: foreign-language-names-and-titles
-
-design:
-  - text: Typography
-    slug: typography
-  - text: Logos
-    slug: logos
-
-events:
-  - text: Calendar
-    slug: calendar
-
-distribution:
-  - text: Locations
-    slug: locations
-
-production-guide:
-  - text: Images / Print
-    slug: images-print
-  - text: Images / Web
-    slug: images-web
