@@ -1,15 +1,59 @@
 .usa-layout-docs__sidenav{
   nav{
     ul.usa-sidenav{
+      @include u-border-bottom(0);
       li{
+        @include u-font('sans', 'xs');
         a{
+          @include u-padding-x(2);
           @include u-text('black');
           @include u-text('medium');
         }
-        li{
-          a{
-            @include u-text('light');
+        // Current menu item styles
+        .usa-current{
+          &:after{
+            @include u-radius(0);
+            @include u-top(0);
+            @include u-bottom(0);
+            @include u-left(0);
+            @include u-bg('red-50v');
           }
+        }
+        // Sub Nav styles
+        ul{
+          @include u-padding-left(2);
+          li{
+            @include u-font('sans', '2xs');
+            a{
+              @include u-padding-left(2);
+              @include u-text('light');
+            }
+            .usa-current{
+              &:after{
+                // content: " ";
+                // @include u-position('absolute');
+                // @include u-display('block');
+                // @include u-radius(0);
+                // @include u-top(0);
+                // @include u-bottom(0);
+                // @include u-left(0);
+                // @include u-bg('red-50v');
+              }
+            }
+          }
+        }
+        &:first-child{
+          @include u-border-top(0);
+        }
+      }
+    }
+    ul.secondary_nav{
+      @include u-margin-y(5);
+      li{
+        @include u-font('sans', '2xs');
+        a{
+          @include u-text('black');
+          @include u-text('light');
         }
       }
     }
