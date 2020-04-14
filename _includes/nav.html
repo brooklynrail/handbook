@@ -11,7 +11,8 @@
 
       {% if section_id == item.slug %}
       <ul class="usa-sidenav__sublist">
-      {% for node in site.pages %}
+      {% assign all_pages = site.pages | sort: 'order' %}
+      {% for node in all_pages %}
         {% if node.url contains section_url %}
           {% assign node_url_parts = node.url | split: '/' %}
           {% assign node_url_parts_size = node_url_parts | size %}
