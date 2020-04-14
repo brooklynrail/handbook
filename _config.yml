@@ -41,6 +41,7 @@ collections:
   pages:
     output: true
     permalink: /:path
+    sort_by: order
 
 github:
   organization: brooklynrail
