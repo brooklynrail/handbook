@@ -1,12 +1,31 @@
+{% assign url_parts = page.url | split: '/' %}
+{% assign url_parts_size = url_parts | size %}
+{% assign slug = url_parts | last %}
+{% assign section_url = page.url | replace: slug %}
+{% assign section_id = section_url | replace: '/','' %}
+
 <ul class="usa-sidenav">
 {% for item in include.nav %}
   <li class="usa-sidenav__item">
-    <a class="{% if item.slug == page.url %}usa-current{% endif %}" href="{{ item.slug | absolute_url }}" title="{{ item.text }}">{{ item.text }}</a>
-    {% assign id = item.slug | replace:'/','' %}
-    {% if id == page.nav %}
-      {% if site.data.nav.[page.nav] %}
-        {% include subnav.html group=page.nav %}
-      {% endif %}
+    <a class="{% if item.slug == section_id %}usa-current{% endif %}" href="{{ item.slug | absolute_url }}" title="{{ item.text }}">{{ item.text }}</a>
+
+      {% if section_id == item.slug %}
+      <ul class="usa-sidenav__sublist">
+      {% for node in site.pages %}
+        {% if node.url contains section_url %}
+          {% assign node_url_parts = node.url | split: '/' %}
+          {% assign node_url_parts_size = node_url_parts | size %}
+          {% assign filename = node_url_parts | last %}
+
+          {% if url_parts_size == node_url_parts_size and filename != 'index' %}
+            <li class="usa-sidenav__item">
+              <a class="{% if node.url contains slug %}usa-current{% endif %}" href='{{node.url}}'>{{node.title}}</a>
+            </li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+
     {% endif %}
 
   </li>
