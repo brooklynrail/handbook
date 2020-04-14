@@ -74,13 +74,14 @@ collections:
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI
     label_singular: 'Page'
-    description: "TKTK"
+    description: "Top-level pages that do not have a section"
     folder: "_pages" # path to the folder where files are stored
     # path: '{{slug}}/_index' # custom file path
     create: true # Allow users to create new documents in this collection
     identifier_field: title # sets the field that is used to create the slug
     slug: "{{slug}}"
     fields:
+
       - label: "Title"
         name: "title"
         widget: "string"
@@ -101,6 +102,16 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+        hint: "TKTK"
+        required: false
+
+      - label: "Page Order"
+        name: "order"
+        widget: "number"
+        default: 1
+        valueType: "int"
+        min: 0
+        max: 100
         hint: "TKTK"
         required: false
 
@@ -135,5 +146,103 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+        hint: "TKTK"
+        required: false
+
+      - label: "Page Order"
+        name: "order"
+        widget: "number"
+        default: 1
+        valueType: "int"
+        min: 0
+        max: 100
+        hint: "TKTK"
+        required: false
+
+  # Style Guide  =======================
+  - name: "style-guide" # Used in routes, e.g., /admin/collections/blog
+    label: "Style Guide" # Used in the UI
+    label_singular: 'Style Guide'
+    description: "TKTK"
+    folder: "_pages/style-guide" # path to the folder where files are stored
+    # path: '{{slug}}/_index' # custom file path
+    create: true # Allow users to create new documents in this collection
+    identifier_field: title # sets the field that is used to create the slug
+    slug: "{{slug}}"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        hint: "TKTK"
+
+      - label: "Deck"
+        name: "deck"
+        widget: "string"
+        hint: "TKTK"
+        required: false
+
+      - label: "Summary"
+        name: "summary"
+        widget: "string"
+        hint: "TKTK"
+        required: false
+
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        hint: "TKTK"
+        required: false
+
+      - label: "Page Order"
+        name: "order"
+        widget: "number"
+        default: 1
+        valueType: "int"
+        min: 0
+        max: 100
+        hint: "TKTK"
+        required: false
+
+  # Production Guide  =======================
+  - name: "production-guide" # Used in routes, e.g., /admin/collections/blog
+    label: "Production Guide" # Used in the UI
+    label_singular: 'Production Guide'
+    description: "TKTK"
+    folder: "_pages/production-guide" # path to the folder where files are stored
+    # path: '{{slug}}/_index' # custom file path
+    create: true # Allow users to create new documents in this collection
+    identifier_field: title # sets the field that is used to create the slug
+    slug: "{{slug}}"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        hint: "TKTK"
+
+      - label: "Deck"
+        name: "deck"
+        widget: "string"
+        hint: "TKTK"
+        required: false
+
+      - label: "Summary"
+        name: "summary"
+        widget: "string"
+        hint: "TKTK"
+        required: false
+
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        hint: "TKTK"
+        required: false
+
+      - label: "Page Order"
+        name: "order"
+        widget: "number"
+        default: 1
+        valueType: "int"
+        min: 0
+        max: 100
         hint: "TKTK"
         required: false
