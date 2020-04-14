@@ -31,7 +31,15 @@ layout: default
           {% include anchor_headings.html html=content beforeHeading=true %}
         </div>
 
-        <p class="edit"><a target="new" title="edit this page" href="{{site.github.repository_url}}/edit/master/{{page.path}}">Edit</a></p>
+        <!-- Edit in NetlifyCMS -->
+        <!-- https://www.netlifycms.org/docs/open-authoring/ -->
+        {% assign section_url = page.url | replace: slug %}
+        {% assign section_id = section_url | replace: '/','' %}
+        {% if section_id == '' %}{% assign section_id = 'pages' %}{% endif %}
+        <p class="edit"><a target="new" title="edit this page" href="/admin/#/edit{% if section_id == 'pages' %}/{{ section_id }}{% endif %}{{page.url}}">Edit</a></p>
+
+        <!-- Edit in GitHub -->
+        <!-- <p class="edit"><a target="new" title="edit this page" href="{{site.github.repository_url}}/edit/master/{{page.path}}">Edit</a></p> -->
 
       </div>
     </div>
