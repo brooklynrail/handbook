@@ -1,7 +1,6 @@
 ---
 title: Names, Places, and Titles
-nav: style-guide
-
+order: 1
 ---
 
 ## Capitalization of titles

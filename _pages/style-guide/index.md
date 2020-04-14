@@ -1,6 +1,6 @@
 ---
 title: Style Guide
-nav: style-guide
+order: 1
 ---
 
 

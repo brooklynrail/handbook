@@ -1,6 +1,6 @@
 ---
 title: Events Calendar
-nav: events
+order: 1
 ---
 
 this is the Events guide home.

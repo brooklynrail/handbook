@@ -1,6 +1,6 @@
 ---
 title: Workflow
-nav: style-guide
+order: 1
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 title: Time and Numbers
-nav: style-guide
+order: 1
 ---
 
 ## When to use numerals {#when-to-use-numerals}

@@ -1,6 +1,6 @@
 ---
 title: Names, Places, and Titles
-nav: style-guide
+order: 1
 ---
 
 ## Personal Names {#personal-names}
