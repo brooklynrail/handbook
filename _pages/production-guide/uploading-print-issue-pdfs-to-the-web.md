@@ -2,7 +2,8 @@
 title: Uploading print issue PDFs to the web
 order: 2
 ---
-Each print issue of the Brooklyn Rail has an associated PDF. Recently, we've started archiving them in a central location on the server.
+
+Starting in April 2020, we decided to make the print issue of the Brooklyn Rail available as a PDF on the website. This PDF is not the final copy we send to the printers _(that one is too large)_ but rather a more screen-ready PDF that people can explore in a browser.
 
 **How to upload PDFs:**
 
