@@ -35,8 +35,12 @@ layout: default
         <!-- https://www.netlifycms.org/docs/open-authoring/ -->
         {% assign section_url = page.url | replace: slug %}
         {% assign section_id = section_url | replace: '/','' %}
-        {% if section_id == '' %}{% assign section_id = 'pages' %}{% endif %}
-        <p class="edit"><a target="new" title="edit this page" href="/admin/#/edit{% if section_id == 'pages' %}/{{ section_id }}{% endif %}{{page.url}}">Edit</a></p>
+        {% if section_id == '' %}
+          YES
+          {% assign secion_slug = '/pages' %}
+        {% endif %}
+        {% assign edit_path = "/admin/#/edit" | append: secion_slug | append: page.url %}
+        <p class="edit"><a target="new" title="edit this page" href="{{ edit_path | relative_url }}">Edit</a></p>
 
         <!-- Edit in GitHub -->
         <!-- <p class="edit"><a target="new" title="edit this page" href="{{site.github.repository_url}}/edit/master/{{page.path}}">Edit</a></p> -->
