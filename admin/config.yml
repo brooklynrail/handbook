@@ -14,11 +14,11 @@
 
 # ===========================
 
-display_url: https://brooklynrail.github.io/brooklynrail-handbook/
-site_url: https://brooklynrail.github.io/brooklynrail-handbook/
+display_url: http://handbook.brooklynrail.org/
+site_url: http://handbook.brooklynrail.org/
 
 # logo_url — sets the logo in the /admin
-logo_url: https://brooklynrail.github.io/brooklynrail-handbook/assets/img/br-diversity.svg
+logo_url: http://handbook.brooklynrail.org/assets/img/br-diversity.svg
 
 # Backend and connections
 
