@@ -1,6 +1,6 @@
 ---
 title: Uploading print issue PDFs to the web
-order: 0
+order: 2
 ---
 Each print issue of the Brooklyn Rail has an associated PDF. Recently, we've started archiving them in a central location on the server.
 
