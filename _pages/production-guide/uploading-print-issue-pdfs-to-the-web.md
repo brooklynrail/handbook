@@ -15,4 +15,5 @@ Starting in April 2020, we decided to make the print issue of the Brooklyn Rail 
 5. Upload the file in the "files" section of the Rail admin <https://brooklynrail.org/admin/files/>
 6. Clear the homepage cache at <https://brooklynrail.org/admin/>
 7. Check that the "view PDF" button on the left side of the homepage is visible
-8. :tada:
+
+:tada:
