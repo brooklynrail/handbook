@@ -1,7 +1,6 @@
 ---
-title: Eventbrite (NSE)
-summary: Template for "How Will This Work" text for the New Social Environment
-  Events held over ZOOM
+title: Eventbrite (Events held over Zoom)
+summary: Template for "How Will This Work" text for Events held over ZOOM
 order: 1
 ---
 **Join our ZOOM:**
